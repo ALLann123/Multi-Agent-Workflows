@@ -19,6 +19,7 @@ Testing the Agent:
 # 2 Hierarchical Agent
 
 Supervisor is a multi-agent architecture where multiple agents are coordinated by a single supervisor agent. The Supervisor controls the communication flow, delegates tasks, and makes decisions about which agent to invoke based on the current context and task requirements
+
 status: Incomplete
 
 ![Screenshot 2025-07-03 170026](https://github.com/user-attachments/assets/8f07b96a-2963-464d-afb7-351c0d9c7b00)
