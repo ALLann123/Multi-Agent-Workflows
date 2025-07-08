@@ -32,7 +32,7 @@ LangGraph+Persistence+SSH(Kali Linux)
 ![Screenshot 2025-07-08 171552](https://github.com/user-attachments/assets/cf9d4bf0-6f20-4dd4-99b5-fb8d411d454c)
 
 Simple CTF solves:🎉
-
+Trace on LangSmith:https://smith.langchain.com/public/287dbfc1-5ff5-4a58-b20d-bf74b62f8f4b/r
 ![Screenshot 2025-07-08 180232](https://github.com/user-attachments/assets/7c6a3b8c-c5e8-49ec-98d5-869a9782f763)
 
 
