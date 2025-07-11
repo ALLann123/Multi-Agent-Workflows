@@ -36,3 +36,15 @@ Trace on LangSmith:https://smith.langchain.com/public/287dbfc1-5ff5-4a58-b20d-bf
 ![Screenshot 2025-07-08 180232](https://github.com/user-attachments/assets/7c6a3b8c-c5e8-49ec-98d5-869a9782f763)
 
 
+# 4 Ambient Agent-Module_2: EMAIL ASSISTANT
+
+Contains a Router to classify incoming emails and determine which one requires a response, which is then passed to the Response Agent to generate a response. 
+
+LangSmith: https://smith.langchain.com/public/17a30b4c-58dd-45a5-8fe6-191500a800f6/r
+
+<img width="202" height="333" alt="email_agent" src="https://github.com/user-attachments/assets/14870937-07af-4d31-95b4-b8b0388d4d2b" />
+
+
+
+
+
