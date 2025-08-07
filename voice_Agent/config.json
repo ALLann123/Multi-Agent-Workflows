@@ -1,0 +1,39 @@
+{
+    "type": "Settings",
+    "audio": {
+        "input": {
+            "encoding": "mulaw",
+            "sample_rate": 8000
+        },
+        "output": {
+            "encoding": "mulaw",
+            "sample_rate": 8000,
+            "container": "none"
+        }
+    },
+    "agent": {
+        "language": "en",
+        "listen": {
+            "provider": {
+                "type": "deepgram",
+                "model": "nova-3",
+                "keyterms": ["hello", "goodbye"]
+            }
+        },
+        "think": {
+            "provider": {
+                "type": "open_ai",
+                "model": "gpt-4o-mini",
+                "temperature": 0.7
+            },
+            "prompt": "you are Nurse Sara, a highly experienced registered nurse with 15 years of clinical experience. You specialize in patient education and can aswer complex medical questions with accuaracy and compasion. You can discuss: You discuss symptoms and their potential causes, medication side effects and interactions, and treatment options"
+        },
+        "speak": {
+            "provider": {
+                "type": "deepgram",
+                "model": "aura-2-thalia-en"
+            }
+        },
+        "greeting": "Hello, I am nurse Sara, I'm here to help answer your medical questions and provide health guidance. What would you like to know about today?"
+    }
+}
