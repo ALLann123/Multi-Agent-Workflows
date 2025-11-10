@@ -1,0 +1,39 @@
+FASTAPI
+- API(Application programing Interface) is a set of endpoints for computer to computer communication.
+ENDPOINTS E.g on a Todo Server
+1. Create a Todo
+2. Updating a Todo
+3. Deleting a Todo
+- FASTAPI is a modern python web framework for building efficient APIs.
+Is optimized from high performance by using asynchronous server.
+
+asynchronous Servers- Can handle multisessions at once and don't have to wait for 
+one session to finish.(non-blocking tasks)
+asynchronous- Allows a program to start a long-running task like a network request
+and continue executing other code withoud waiting for it to finish.
+Similar to multitasking. EG cooking dinner while doing laundry
+async/await syntax.----> Normal programs use I/O bound(wait for function to finish)
+
+DECIDE WHAT TO use
+- Use Django if we want to have a comprehensive framework
+- Flask if you want to have maximum simplicity.
+- FASTAPI creating something that will have many users and requires performance.====> High performance.
+Build: fast_api_hello_world.py
+TO RUN:
+    cmd>> fastapi dev fast_api_hello_world.py --port 444
+NOTE: Some endpoints define methods that are CPU bound.
+E.G 
+#creating an endpoint
+@api.get('/')
+def index():
+    return {"message":"Hello World"}
+
+FASTAPI uses pydantic and enforces the types automatically
+
+Without a frontend you can query a POST endpoint using Postman or curl
+But FASTAPI api has a /docs endpoint to test our POST
+-----> 127.0.0.1:4444/docs
+The above is necessary for the post methods when testing a Todo
+
+If an error occurs we raise HTTP exceptions!!
+
