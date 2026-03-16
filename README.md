@@ -1,4 +1,4 @@
-# Multi-Agent-Workflows
+# Multi-Agent-Workflows 
 **Agents**: These are software systems that use AI to pursue a goal on behalf of the user. 
 
 **Multi-Agent**: Multiple artificial intelligence(AI) systems working collectively to pursue a goal on behalf of the user or another system.
